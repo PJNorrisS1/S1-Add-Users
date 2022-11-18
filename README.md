@@ -26,3 +26,5 @@ A sample auth.key is supplied and, if placed in the same folder as adduser.sh, t
 * Enable 2FA - true or false, will enable 2FA for the user
 
 Validation is done on the URL and API key to ensure a correct value is created. 
+
+Error codes are validated, when applying to indicate if successful, if authentication has failed, or if the email address already exists in the S1 Console. 
